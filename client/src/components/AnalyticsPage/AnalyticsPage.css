@@ -1,0 +1,51 @@
+.analytics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 800px;
+  padding: 20px;
+}
+.analytics-page {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  height: 100%;
+}
+.analytics-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.analytics-page h1 {
+    text-align: center;
+}
+
+.analytics-page nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.analytics-page nav ul li {
+    margin: 0 15px;
+}
+
+.analytics-page nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.analytics-page nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.analytics-content {
+    margin-top: 20px;
+}

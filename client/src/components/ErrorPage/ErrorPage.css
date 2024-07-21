@@ -1,0 +1,33 @@
+/* .errorPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 800px;
+  padding: 20px;
+  text-align: center;
+}
+.errorType {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  height: 100%;
+} */
+.errorPage h1 {
+    font-size: 48px;
+    color: red;
+}
+
+.errorPage p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.errorPage a {
+    color: blue;
+    text-decoration: underline;
+}

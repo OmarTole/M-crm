@@ -1,0 +1,22 @@
+.detailsCharacter .add {
+    margin-top: 5px;
+    opacity: 0.9;
+}
+
+.nameProgram p {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 426px) {
+    .nameProgram {
+        flex-direction: column;
+    }
+    .nameProgram .titleProgram {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .detailsCharacter li {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,13 @@
+.listNewOrders {
+  margin-top: 20px;
+}
+
+.listNewOrders ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.summNewOrders {
+  font-weight: bold;
+}
+

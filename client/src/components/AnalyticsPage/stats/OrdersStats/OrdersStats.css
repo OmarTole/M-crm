@@ -1,0 +1,59 @@
+.orders-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.orders-stats h2 {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.stat {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat h3 {
+    margin-bottom: 10px;
+}
+
+.stat p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.orders-stats {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.orders-stats h2 {
+    margin-bottom: 20px;
+}
+
+.stat {
+    margin-bottom: 15px;
+}
+
+.stat h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.stat p, .stat ul {
+    margin: 5px 0;
+}
+
+.stat ul {
+    padding-left: 20px;
+}
+
+.stat ul li {
+    list-style-type: disc;
+}

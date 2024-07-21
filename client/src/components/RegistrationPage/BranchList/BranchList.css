@@ -1,0 +1,16 @@
+
+.branchList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.branchItem button {
+    background-color: #f44336;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+    height: 35px;
+}

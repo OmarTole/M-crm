@@ -1,0 +1,6 @@
+.CharactersPage .charIn {
+    display: flex;
+}
+.CharactersPage .headCharacters {
+    height: 20px;
+}

@@ -1,0 +1,19 @@
+.employeesType .employeesList {
+  width: 100%;
+  text-content: center;
+}
+.employeesType .employeesList h2 {
+  width: 13%;
+  margin: 0 auto 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.employeesType .employeesList .employeeUl {
+  background-color: #DCDCDC;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 7px;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 10px solid #DCDCDC;
+}

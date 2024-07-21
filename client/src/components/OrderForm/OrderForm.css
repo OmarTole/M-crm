@@ -1,0 +1,137 @@
+/* Основные стили */
+.btnNewOrder button {
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: #ffd700; /* Желтый */
+  color: black;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Тень */
+}
+
+.btnNewOrder button:hover {
+  background-color: #ffff33; /* Желтый */
+  transition: 0.3s;
+}
+
+.orderForm {
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Тень только снизу */
+}
+
+.orderForm.hidden {
+  display: none;
+}
+
+.orderForm .formInput {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.orderForm .formInput .date {
+  width: 33%;
+  margin-bottom: 10px;
+}
+
+.orderForm form input,
+.orderForm form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: calc(100% - 20px); /* Учитывает padding */
+}
+
+.orderForm .formInput .errorMessage {
+  color: red;
+  margin: 0;
+}
+
+.orderForm .formInput .error {
+  border: 1px solid red;
+}
+
+.orderForm form .addOrder {
+  margin-top: 20px; /* Изменил margin-top */
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.orderForm form .addOrder:hover {
+  background-color: #0056b3;
+}
+
+/* OrderForm.css */
+
+.dropdown {
+    position: absolute;
+    max-height: 150px;
+    max-width: 370px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1000;
+}
+
+.dropdown-option {
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dropdown-option:hover {
+    background-color: #f0f0f0;
+}
+
+/* Адаптивные стили для экрана шириной 768px */
+@media (max-width: 768px) {
+  .orderForm .formInput div {
+    width: 48%;
+  }
+}
+
+/* Адаптивные стили для экрана шириной 426px */
+/* @media (max-width: 426px) {
+  .orderForm .formInput div {
+    width: 100%;
+  }
+
+  .orderForm .formInput div:not(:nth-child(2)):not(:nth-child(5)):not(:nth-child(11)):not(:nth-child(13)) {
+    display: none;
+  }
+
+  .orderForm .formInput div:nth-child(2),
+  .orderForm .formInput div:nth-child(5),
+  .orderForm .formInput div:nth-child(11),
+  .orderForm .formInput div:nth-child(13) {
+    width: 100%;
+  }
+
+  .btnNewOrder button {
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .orderForm {
+    padding: 10px;
+  }
+
+  .orderForm form button {
+    padding: 8px;
+  }
+} */
+

@@ -1,0 +1,58 @@
+.order-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 15px 30px 10px 50px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Тень */
+  border: 1px solid #ffff33;
+  min-height: 30px;
+  border-radius: 5px;
+  transition: transform 0.3s ease; /* Добавляем анимацию */
+}
+
+.orderData {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 100%;
+}
+.orderData div {
+  min-width: 11%;
+}
+.orderData .status select {
+  height: 25px;
+  border-radius: 4px;
+}
+.orderData .status select:hover {
+  cursor: pointer;
+}
+
+/* OrderItem.css */
+
+@media (max-width: 768px) {
+/* .headOrdersList p:nth-child(n+5) {
+      display: none;
+  } */
+  .orderData {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 426px) {
+  .orderData .status select {
+    height: 20px;
+    width: 70px;
+    font-size: 12px;
+  }
+
+  .order-item {
+    padding: 10px 10px 5px 10px;
+  }
+  
+  .orderData .date {
+      display: none;
+  }
+}

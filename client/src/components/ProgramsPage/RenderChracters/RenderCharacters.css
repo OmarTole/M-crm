@@ -1,0 +1,25 @@
+@import url('../../../style/colors.css');
+
+.characterList {
+  flex-direction: column;
+}
+.characterList .characterName {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /* font-weight: bold; */
+}
+.characterList .newCharacter {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  padding-bottom: 10px;
+}
+.characterList .newCharacter input {
+  margin: 5px;
+  width: 50%;
+}
+.characterList .characterBtn {
+  display: flex;
+  margin-top: 10px;
+}

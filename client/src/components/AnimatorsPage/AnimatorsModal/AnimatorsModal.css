@@ -1,0 +1,24 @@
+.employee-details {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.employee-details h2 {
+    margin-bottom: 20px;
+}
+
+.employee-details p {
+    margin: 10px 0;
+}
+
+.employee-details button {
+    margin-top: 20px;
+}
+
+.employee-details button:hover {
+    background-color: #0056b3;
+}

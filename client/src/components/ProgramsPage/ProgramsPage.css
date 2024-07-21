@@ -1,0 +1,73 @@
+.programsType {
+  flex-direction: row;
+}
+.pBlock {
+    width: 50%;
+    text-content: center;
+    max-height: 100%;
+    background-color: #DCDCDC;
+    margin: 10px;
+    border-radius: 7px;  
+}
+.pBlock .addProgramInput {
+  margin: 0 20px 0 20px;
+  padding: 10px;
+  background-color: #FFFAFA;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.pBlock .ul {
+    max-height: 600px;
+    overflow-y: auto;
+}
+.pBlock p {
+  margin-left: 20px;
+}
+.pBlock h2 {
+    width: 26%;
+    margin: 0 auto;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.pBlock ul {
+    padding: 20px;
+    padding-top: 10px;
+}
+.pBlock li {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #FFFAFA;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.pBlock input {
+  border-radius: 4px;
+  width: 70%;
+  height: 20px;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .programsType {
+    flex-direction: column;
+  }
+  .pBlock {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 426px) {
+  .pBlock h2 {
+    width: 50%;
+  }
+}

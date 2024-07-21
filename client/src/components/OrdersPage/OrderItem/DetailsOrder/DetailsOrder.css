@@ -1,0 +1,48 @@
+
+.detailsOrder {
+    margin: 10px 0;
+}
+.detailsOrder span {
+    font-weight: bold;
+    /* font-size: 1px; */
+}
+.detailsOrder .detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.detailsOrder .detail div {
+    width: 25%;
+    margin: 5px;
+    font-size: 15px;
+}
+.detailsOrder .note {
+    margin-top: 10px
+}
+.detailsOrder .note span {
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+
+.detailsOrder .note1 {
+    display: flex;
+    font-size: 20px;
+}
+.detailsOrder .note1 span {
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+    margin-right: 5px;
+}
+.detailsOrder .note1 .warning {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 426px) {
+    .detailsOrder .detail div {
+        font-size: 13px;
+    }
+}

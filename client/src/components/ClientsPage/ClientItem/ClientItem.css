@@ -1,0 +1,6 @@
+.client-item .itemBtn {
+  display: flex;
+}
+.client-item .itemBtn button {
+  margin-right: 5px;
+}
